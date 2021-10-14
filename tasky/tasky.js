@@ -63,5 +63,4 @@ taskContainer.insertAdjacentHTML("beforeend", newCard);
 globalStore.push(taskData);
 localStorage.setItem("tasky",JSON.stringify({cards: globalStore}));
 
-
 };
